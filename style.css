@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #fdebd0;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.head__title{
+    height: 15vh;
+}
+
+h1{
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.content__position{
+    border-bottom: 1px solid #7f8c8d;
+    margin-left:auto; /*через margin позиционирование блока по центру*/
+    margin-right: auto;
+    width:85vw;
+    max-width: 1200px;
+}
+
+.content__structure{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.content__items{
+    border: 1px solid #7f8c8d;
+    border-radius: 15%;
+    height:210px;
+    text-align: center;
+    margin:0 15px 10px 15px ;
+    width:180px; 
+   
+}
+
+.content__items img{
+    padding-top: 20px;
+}
+.content__items p{
+    padding-top:20px;
+}
+
+.footer{
+    height: 15vh;
+}
+.footer h3{
+    padding-top: 2vh;
+    text-align: center;
+}
